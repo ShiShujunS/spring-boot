@@ -9,6 +9,8 @@ public class HelloController {
 
     @RequestMapping(value={"/hi","/hello"},method = RequestMethod.GET)
     public String say(){
-        return "Hi,Say！";
+
+        return "Hi,Say -branch jdb --merge master";
+
     }
 }
